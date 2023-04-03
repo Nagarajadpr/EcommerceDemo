@@ -1,0 +1,86 @@
+.login-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+
+}
+.login-container{
+    height: auto;
+    width: 350px;
+    padding: 10px;
+    background-color: rgb(143, 225, 242);
+    display: grid;
+    border-radius: 20px;
+    text-align: center;
+}
+.login-container h1{
+    size: 10px;
+    color: rgb(49, 54, 54);
+    }
+    hr{
+        border: 1px solid rgb(143, 15, 234);
+        height: 1px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .seller-login input{
+        padding: 5px 10px;
+        margin-top: 5px;
+        border: 0px solid white;
+        border-radius: 5px;
+        text-align: center
+        
+    }
+    .seller-login input[type=submit]{
+        color: rgb(242, 237, 237);
+        background-color: rgb(244, 141, 38);
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-left: 100px;
+        margin-right:85px ;
+    }
+    /* customer login */
+    .customer-login input {
+        padding: 5px 10px;
+        margin-top: 5px;
+        border: 0px solid white;
+        border-radius: 5px;
+        text-align: center
+    }
+    
+    .customer-login input[type=submit]{
+        color: rgb(242, 237, 237);
+        background-color: rgb(244, 141, 38);
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-left: 100px;
+        margin-right:85px ;
+    
+    }
+
+    /* login buttons */
+    .btns{
+        margin: auto;
+        display: inline-block;
+    
+    }
+    .btn-customer{
+      background-color: blue;
+      color: beige;
+        border: 1px solid rgb(29, 243, 29) ;
+        padding: 5px 10px;
+        border-radius: 20px;
+    }
+    .btn-seller{
+        background-color: rgb(29, 243, 29);
+        color: beige;
+        border: 1px solid rgb(29, 243, 29) ;
+        padding: 5px 10px;
+        margin-left: 10px;
+        border-radius: 20px;
+    
+    }

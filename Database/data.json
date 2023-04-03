@@ -1,0 +1,90 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "username": "customer1",
+      "mail": "customer1@gmail.com",
+      "password": "cust123",
+      "mobile": "9876543210",
+      "address": {
+        "houseNum": 123,
+        "street": "1st cross",
+        "city": "gundanagar",
+        "state": "gundunaad",
+        "pincode": "560072"
+      }
+    },
+    {
+      "username": "Nagu",
+      "mail": "nagudmp@gmail.com",
+      "password": "12345",
+      "mobile": "9632779033",
+      "address": {
+        "houseNum": "10",
+        "street": "1st cross",
+        "city": "dmp",
+        "state": "karnataka",
+        "pincode": "577546"
+      },
+      "id": 2
+    },
+    {
+      "username": "Harish",
+      "mail": "harish@gmail.com",
+      "password": "1234",
+      "mobile": "9632144587",
+      "address": {
+        "houseNum": "150",
+        "street": "2nd cross",
+        "city": "hiriyur",
+        "state": "Karnataka",
+        "pincode": "577546"
+      },
+      "id": 3
+    }
+  ],
+  "sellers": [
+    {
+      "id": 1,
+      "username": "seller1",
+      "mail": "seller1@gmail.com",
+      "password": "sell123",
+      "mobile": "9876543210",
+      "address": {
+        "shop": "gundu shop",
+        "street": "gundu street 1st cross",
+        "city": "gundanagar",
+        "state": "gundunaad",
+        "pincode": "560072"
+      }
+    },
+    {
+      "username": "Shiv",
+      "mail": "shiv@gmail.com",
+      "password": "123456",
+      "mobile": "7894561231",
+      "address": {
+        "shop": "22",
+        "street": "2nd across",
+        "city": "Haveri",
+        "state": "Karnataka",
+        "pincode": "562356"
+      },
+      "id": 2
+    },
+    {
+      "username": "mukesh",
+      "mail": "mukesh@gmail.com",
+      "password": "sharath",
+      "mobile": "8971626534",
+      "address": {
+        "shop": "445",
+        "street": "hanuman",
+        "city": "hanagal",
+        "state": "karnataka",
+        "pincode": "581104"
+      },
+      "id": 3
+    }
+  ]
+}

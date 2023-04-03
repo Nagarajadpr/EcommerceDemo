@@ -1,0 +1,170 @@
+
+.navbar{
+    
+    margin: auto;
+    height: 80px;
+    width: 1530px; 
+    display: flex;
+    background-color: rgba(8, 8, 240, 0.568);
+}
+.logo img{
+    height: 60px;
+    width: 120px;
+   margin-left: 30px;
+   border-radius: 5px;
+   margin-top: 10px;  
+}
+    
+.search{
+    margin-left: 350px;
+    
+}
+ .search input[type=search]{
+        height: 40px;
+        width: 220px;
+        margin-top: 30px;
+      border: 0px solid white;
+      text-align: center;
+    }
+.search input[type=button]{
+    height: 40px;
+    width: 50px;
+    margin-top: 20px;
+  border: 0px solid white;
+  color: white;
+  background-color: rgb(6, 237, 6);
+}  
+.user{
+    display: flex;
+} 
+.user img{
+    height: 80px;
+    margin-left: 250px;
+}
+.user h5{
+    color: orangered;
+    margin-top: 40px;
+    font-size: 30px;
+
+}
+.cart{
+    height: 60px;
+    width: 85px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.cart img{
+height: 40px;
+}
+.cart button{
+    height: 60px;
+    width: 85px;
+    border-radius: 5px;
+    background-color: rgb(235, 178, 21);
+    border: 2px solid  rgb(235, 178, 21);
+}
+.logout{
+
+    margin-left: 50px;
+
+}
+.logout img{
+height: 50px;
+}
+.logout button{
+    height: 60px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: rgb(32, 237, 237);
+    border: 2px solid rgb(32, 237, 237);
+    border-radius: 5px;
+   font-weight: bold;
+   
+}
+
+.components{
+    margin:auto;
+    
+    height: 2000px;
+    width: 1520px;
+  display: block;
+
+}
+.child1{
+    height: 300px;
+    width: 1500px;
+    
+    display: flex;
+}
+.child1 img{
+    width: 1000px;
+    height: 300px;
+    border-radius: 8px;
+}
+.child2{
+    height: 300px;
+    width: 1500px;
+
+    display: flex;
+}
+.child2 img{
+    
+    width: 1000px;
+    height: 300px;
+    border-radius: 8px;
+}
+.child3{
+    height: 300px;
+    width: 1500px;
+    
+    display: flex;
+}
+.child3 img{
+    width: 1000px;
+    height: 300px; 
+    border-radius: 8px;
+
+}
+.child4{
+    color: rgb(18, 118, 249);
+    height: 400px;
+    width: 1500px;
+    background-color: rgba(216, 236, 33, 0.273);
+    display: block;
+}
+
+.offers-list{
+    color: rgb(11, 194, 235);
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns: 500px 500px 500px;
+}
+.offers{
+    border-right: 1px solid blue ;
+    display: flex;
+    position: relative;
+    height: 300px;
+}
+.offers img{
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+}
+.offers h4{
+    position: absolute;
+    bottom: 20px; 
+    right: 80px;
+}
+.offers h3{
+    position: absolute;
+    bottom: 20px; 
+    left:80px;
+}
+.offers h1{
+    position: absolute;
+    top: 20px; 
+    left: 190px;
+    color: orangered;
+}
